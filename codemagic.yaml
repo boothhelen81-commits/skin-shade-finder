@@ -1,0 +1,15 @@
+workflows:
+ios-workflow:
+name:ios Build
+enviroment:
+   xcode: latest
+   scripts:
+   - name: Dummy build step
+   script: echo "Building ios"
+   
+       
+    
+       
+
+
+
