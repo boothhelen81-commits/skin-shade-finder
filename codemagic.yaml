@@ -1,13 +1,16 @@
-workflows:
+   workflows:
   ios-workflow:
-    name: ios Build
+    name: TrueMatch iOS App Store Build
+    max_build_duration: 60
+    instance_type: mac_mini_m2
     environment:
       xcode: latest
-    scripts:
-      - name: Dummy build step
-              script: echo "Building ios"
-              
-      
+      cocoapods: default
+      node: 20.0.0
+      vars:
+        BUNDLE_ID: com.skintoneanalyzer.app
+        XCODE_WORKSPACE: ios/App/App.xcworkspace
+        XCODE_SCHEME: App 
 
         
     
