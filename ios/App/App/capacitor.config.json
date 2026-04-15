@@ -1,0 +1,9 @@
+{
+	"appId": "com.skintoneanalyzer.app",
+	"appName": "Skin Tone Analyzer",
+	"webDir": "dist/public",
+	"server": {
+		"androidScheme": "https"
+	},
+	"packageClassList": []
+}
